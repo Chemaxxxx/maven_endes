@@ -27,33 +27,18 @@ public class Employee {
      *
      * @return nombre
      */
-    public String getName() {
+  public String getName() {
         return name;
     }
 
-    /**
-     * Devuelve los años en la empresa.
-     *
-     * @return años trabajados
-     */
     public int getYears() {
         return years;
     }
 
-    /**
-     * Modifica el nombre.
-     *
-     * @param name nuevo nombre
-     */
     public void setName(String name) {
         this.name = name;
     }
 
-    /**
-     * Modifica años trabajados.
-     *
-     * @param years nuevos años
-     */
     public void setYears(int years) {
         this.years = years;
     }
