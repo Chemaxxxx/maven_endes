@@ -18,19 +18,17 @@ public class App {
 
     public void printEmployees() {
 
-        System.out.println("List of employees:");
+    System.out.println("List of employees:");
 
-        for (int i = 0; i < employees.size(); i++) {
+    for (Employee employee : employees) {
 
-            Employee employee = employees.get(i);
-
-            System.out.println(
-                employee.getName()
-                + ", Years in company: "
-                + employee.getYears()
-            );
-        }
+        System.out.println(
+            employee.getName()
+            + ", Years in company: "
+            + employee.getYears()
+        );
     }
+}
 
     public static void main(String[] args) {
 
